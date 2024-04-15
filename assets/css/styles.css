@@ -44,21 +44,26 @@ body{
 }
 
 .button {
-  background-color:#f2f2f2;
-  color: #333333;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 20px;
-  list-style: none;
-  margin: 0;
-  padding: 10px 12px;
-  text-align: center;
+    background-color:#f2f2f2;
+    color: #333333;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 10px 12px;
+    text-align: center;
 }
 
 .button:hover{
     background-color: #fff36b;
+}
+
+.button:disabled{
+    background-color:#cbcaca;
+    cursor:auto;
 }
 
 .score_container img{
