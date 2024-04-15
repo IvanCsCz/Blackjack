@@ -74,7 +74,7 @@ const computerTurn = (playerScore) => {
         }else{
             alert('Computer won!!')
         }
-    }, 100)
+    }, 500)
 }
 
 drawACardBtn.addEventListener('click', () => {
