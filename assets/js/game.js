@@ -1,11 +1,12 @@
 (() => {
     'use-strict'
 
-    const types = ['C','H','S','D']
-    const specialTypes = ['A','J','Q','K']
+    const types = ['C','H','S','D'];
+    const specialTypes = ['A','J','Q','K'];
     const [newGameBtn, drawACardBtn, stopBtn] = document.querySelectorAll('.button');
     const [playerScoreElement, computerScoreElement] = document.querySelectorAll('small')
     const [playerCardsElement, computerCardsElement] = document.querySelectorAll('.card_img')
+    let deck = [];
     let playerScore = 0;
     let computerScore = 0;
 
@@ -125,6 +126,6 @@
 
     })
 
-    let deck = createDeck()
+    deck = createDeck()
 
 })();
